@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Amazon Sign In</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            display: flex;
+            justify-content: center;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        #contain {
+            display: flex;
+
+            justify-content: center;
+            padding: 10px;
+
+        }
+
+        #container {
+            margin-left: 535px;
+            padding: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            display: flex;
+            height: 300px;
+            width: 360px;
+            justify-content: center;
+            border: 2px solid rgb(211, 208, 208);
+
+            border-radius: 5px;
+        }
+
+        .new {
+            text-align: center;
+
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+
+        label {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 361px;
+            margin-top: 4px;
+            height: 27px;
+            border-radius: 4px;
+        }
+
+        .button {
+            margin-top: 15px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            width: 369px;
+            padding: 6px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            cursor: pointer;
+            background-color: rgb(250, 196, 116);
+        }
+
+        .button:hover {
+            background-color: rgb(250, 179, 74);
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066C0;
+        }
+
+        .links:hover {
+            text-decoration: underline;
+            color: rgb(224, 87, 7);
+        }
+
+
+        .help {
+            margin-top: 15px;
+        }
+
+        #morehelp {
+            margin-left: 30px;
+            padding: 4px;
+        }
+
+        .buttonnext {
+
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 425px;
+            padding: 6px;
+            border-radius: 4px;
+            font-size: 15px;
+
+        }
+
+        .buttonnext:hover {
+
+            background-color: rgb(219, 222, 223);
+            cursor: pointer;
+
+        }
+
+        .newaccount {
+            color: black;
+            text-decoration: none;
+        }
+
+        footer {
+            font-size: 13px;
+        }
+
+        .footerlist {
+            padding: 20px;
+
+        }
+
+        hr.linehr {
+            width: 700px;
+            border-top: 1px solid rgb(218, 213, 213);
+
+        }
+
+        hr {
+            width: 400px;
+            border-top: 1px solid rgb(226, 219, 219);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="contain">
+        <a href="#">
+            <img src="../assets/amazonlogo1.jpg" alt="amazonimg">
+        </a>
+    </div>
+    <div id="container">
+        <form>
+            <h1>Sign-in</h1>
+            <label>
+                Email or mobile phone number
+                <br>
+                <input type="text" name="phone">
+            </label>
+            <br>
+
+            <button class="button" type="submit">
+                Continue
+
+            </button>
+            <div>
+                By continuing, you agree to Amazon's <a href="#" class="links"> Conditions of use </a> and <a href="#"
+                    class="links"> Privacy
+                    Notice.</a>
+            </div>
+
+            <details>
+
+                <summary class="help">
+                    <span>
+                        <a href="#help" class="links">Need help?</a>
+                    </span>
+
+                </summary>
+
+                <div id="morehelp">
+                    <a href="#" id="help" class="links">Forgot Password</a><br>
+                    <a href="#" id="help" class="links">Other issue with Sign-in</a>
+                </div>
+            </details>
+
+        </form>
+    </div>
+    <div class="new">
+        <span>
+            <hr width="400">
+            New To Amazon?
+            <hr width="400px">
+        </span>
+
+        <button class="buttonnext">
+
+            <a href="#"><span class="newaccount">Create your Amazon account</span></a>
+
+        </button>
+    </div>
+    <hr class="linehr">
+
+    <footer>
+        <div class="footerlist">
+            <span>
+                <a href="#" class="links">Condition of Use </a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span>
+                <a href="#" class="links">Privacy Notice </a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span>
+                <a href="#" class="links">Help </a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+        </div>
+        <span>&copy;1996-2021, Amazon.com, Inc. or its affiliates</span>
+    </footer>
+
+</body>
